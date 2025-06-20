@@ -1,0 +1,25 @@
+/* Custom styles for the menu sections */
+.menu-section {
+  background-color: #f8f9fa;
+  padding: 30px;
+  margin-bottom: 50px;
+  min-height: 700px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Optional enhancement for section headings */
+.menu-section h2 {
+  font-weight: 600;
+}
+
+/* Make sure "Back to Top" links are styled consistently */
+.menu-section a {
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+.menu-section a:hover {
+  text-decoration: underline;
+}

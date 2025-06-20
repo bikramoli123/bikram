@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OLI BIKRAM MENU</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Keep container vertical stacking */
+    .container {
+      display: flex;
+      flex-direction: column; /* stacked vertically */
+      gap: 30px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    /* Style each menu section */
+    .menu-section {
+      border: 1px solid #ccc;
+      padding: 15px 20px;
+      background: #fff;
+      border-radius: 6px;
+    }
+    .section-title {
+      text-align: right;
+      margin-bottom: 15px;
+      font-size: 1.5em;
+      color: #444;
+      font-weight: 700;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    ul li {
+      display: flex;
+      justify-content: space-between; /* name left, price right */
+      padding: 6px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 1.1em;
+    }
+    ul li:last-child {
+      border-bottom: none;
+    }
+    .price {
+      font-weight: bold;
+      min-width: 70px;
+      text-align: right;
+      color: #007BFF;
+    }
+    a {
+      display: inline-block;
+      margin-top: 12px;
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: 600;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      padding: 20px;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="page-title" id="top" style="text-align:center; margin-bottom:40px;">OLI BIKRAM Menu</h1>
+
+  <div class="container">
+
+    <!-- Chicken Section -->
+    <div class="menu-section chicken">
+      <h2 class="section-title">Chicken</h2>
+      <ul>
+        <li>Grilled Chicken <span class="price">₩12,000</span></li>
+        <li>Spicy Chicken Wings <span class="price">₩10,500</span></li>
+        <li>Teriyaki Chicken <span class="price">₩11,000</span></li>
+        <li>Chicken Alfredo <span class="price">₩13,000</span></li>
+        <li>Chicken Tikka Masala <span class="price">₩14,000</span></li>
+        <li>Honey Garlic Chicken <span class="price">₩12,500</span></li>
+        <li>Butter Chicken <span class="price">₩13,500</span></li>
+        <li>BBQ Chicken Pizza <span class="price">₩15,000</span></li>
+        <li>Chicken Caesar Salad <span class="price">₩11,500</span></li>
+        <li>Chicken Noodle Soup <span class="price">₩9,500</span></li>
+        <li>Fried Chicken <span class="price">₩14,000</span></li>
+        <li>Lemon Herb Chicken <span class="price">₩12,000</span></li>
+        <li>Orange Chicken <span class="price">₩13,000</span></li>
+        <li>Chicken Biryani <span class="price">₩14,500</span></li>
+        <li>Roast Chicken <span class="price">₩15,000</span></li>
+      </ul>
+      <a href="#top">Back to Top</a>
+    </div>
+
+    <!-- Beef Section -->
+    <div class="menu-section beef">
+      <h2 class="section-title">Beef</h2>
+      <ul>
+        <li>Beef Steak <span class="price">₩20,000</span></li>
+        <li>Beef Stroganoff <span class="price">₩18,500</span></li>
+        <li>Beef Tacos <span class="price">₩12,000</span></li>
+        <li>Beef and Broccoli <span class="price">₩14,000</span></li>
+        <li>Roast Beef Sandwich <span class="price">₩13,500</span></li>
+        <li>Spicy Korean Beef <span class="price">₩15,000</span></li>
+        <li>Ground Beef Pasta <span class="price">₩16,000</span></li>
+        <li>Beef Curry <span class="price">₩17,000</span></li>
+        <li>BBQ Beef Ribs <span class="price">₩22,000</span></li>
+        <li>Beef Lasagna <span class="price">₩18,000</span></li>
+        <li>Beef Bulgogi <span class="price">₩19,000</span></li>
+        <li>Beef Chili <span class="price">₩16,500</span></li>
+        <li>Beef Kebabs <span class="price">₩15,500</span></li>
+        <li>Beef Empanadas <span class="price">₩14,000</span></li>
+        <li>Garlic Butter Beef Tips <span class="price">₩20,000</span></li>
+      </ul>
+      <a href="#top">Back to Top</a>
+    </div>
+
+    <!-- Sushi Section -->
+    <div class="menu-section sushi">
+      <h2 class="section-title">Sushi</h2>
+      <ul>
+        <li>California Roll <span class="price">₩10,000</span></li>
+        <li>Spicy Tuna Roll <span class="price">₩11,000</span></li>
+        <li>Dragon Roll <span class="price">₩13,000</span></li>
+        <li>Salmon Nigiri <span class="price">₩12,500</span></li>
+        <li>Tempura Roll <span class="price">₩11,500</span></li>
+        <li>Eel Avocado Roll <span class="price">₩14,000</span></li>
+        <li>Rainbow Roll <span class="price">₩13,500</span></li>
+        <li>Philadelphia Roll <span class="price">₩12,000</span></li>
+        <li>Veggie Roll <span class="price">₩9,500</span></li>
+        <li>Shrimp Tempura Roll <span class="price">₩14,000</span></li>
+        <li>Unagi Roll <span class="price">₩15,000</span></li>
+        <li>Yellowtail Sushi <span class="price">₩13,000</span></li>
+        <li>Futomaki <span class="price">₩10,500</span></li>
+        <li>Scallop Roll <span class="price">₩14,500</span></li>
+        <li>Spider Roll <span class="price">₩15,000</span></li>
+      </ul>
+      <a href="#top">Back to Top</a>
+    </div>
+
+  </div>
+
+</body>
+</html>

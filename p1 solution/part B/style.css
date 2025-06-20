@@ -1,0 +1,12 @@
+.menu-section ul li {
+  display: flex;
+  justify-content: space-between; 
+  padding: 5px 0;
+}
+
+.price {
+  font-weight: bold;
+  min-width: 70px;
+  text-align: right;
+  color: #333;
+}
